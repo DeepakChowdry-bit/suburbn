@@ -23,7 +23,7 @@ const Navbar = () => {
                     <div id="logo" className='flex justify-center'>
                         <Image src={'/Img/logo-black.svg'} width={100} height={100} alt='' />
                     </div>
-                    <div className='flex items-center justify-end space-x-5'>
+                    <div className='flex items-center space-x-5'>
                         <SearchBox />
                         <Link href={'/cart'}>
                             <Image id="cart-icon" src={'/Img/bag.svg'} width={30} height={30} alt='bag' />
