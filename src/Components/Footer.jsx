@@ -6,11 +6,11 @@ import { IoIosMail } from "react-icons/io";
 const Footer = () => {
     return (
         <>
-            <div className='flex items-center justify-center h-80 md:h-52 bg-stone-950 text-zinc-50'>
+            <div className='flex items-center justify-center h-80 md:h-52 bg-stone-950 text-white'>
                 <div className='flex flex-col md:flex-row justify-between h-4/6 w-11/12 gap-6'>
                     <div className='flex flex-col md:w-1/4 space-y-4'>
                         <Image src={'/Img/logo-white.svg'} width={100} height={100} alt='logo' className="w-28 h-auto" priority />
-                        <p className='text-xs md:text-sm text-zinc-300'>The relationship between an artist and collector should be just that... a relationship.</p>
+                        <p className='text-xs md:text-sm text-white'>The relationship between an artist and collector should be just that... a relationship.</p>
                     </div>
                     <div className='flex flex-col gap-8 h-fit'>
                         <div className='flex md:items-center gap-5 md:flex-row flex-col'>
