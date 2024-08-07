@@ -65,7 +65,7 @@ const SearchBox = () => {
 
   return (
     <>
-      <div className='flex relative'>
+      <div className=''>
         <Image ref={searchIcon} src={'/Img/search.svg'} width={23} height={23} alt='search' priority />
         <div ref={searchBox} className="absolute w-full h-0 overflow-hidden bg-zinc-50 right-0 top-16 flex items-center justify-center">
           <div className="flex flex-col space-y-2 h-[90%] justify-start w-11/12">
