@@ -6,7 +6,7 @@ import MenuBar from './MenuBar';
 const Navbar = () => {
     return (
         <>
-            <div className='flex items-center justify-center h-[76px] shadow-sm sticky top-0 bg-zinc-50 z-50'>
+            <div className='flex items-center justify-center h-[76px] shadow-sm sticky top-0 bg-zinc-50 z-50 w-full'>
                 <div className='flex items-center justify-between w-11/12'>
                     <MenuBar />
                     <div id="logo" className='w-fit flex justify-center'>
