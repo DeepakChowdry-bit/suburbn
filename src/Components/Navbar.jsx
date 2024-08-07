@@ -16,12 +16,22 @@ const popp = Poppins({
 const Navbar = () => {
 
     return (
-        <div className="bg-zinc-600 flex items-center justify-center h-28 w-full border border-black">
-            <div className="flex items-center justify-between w-full h-20  border bg-rose-800">
-                <h3>SUBURBN.</h3>
-                <Image src={'/Img/bag.svg'} width={20} height={20} alt="" />
+        <>
+            <div className='flex items-center justify-center h-20 shadow-sm sticky top-0 bg-zinc-50 z-50'>
+                <div className='flex items-center justify-between w-11/12'>
+                    <MenuBar />
+                    <div id="logo" className='w-1/3 flex justify-center'>
+                        <Image src={'/Img/logo-black.svg'} width={100} height={100} alt='' />
+                    </div>
+                    <div className='flex items-center justify-end w-1/3 space-x-5'>
+                        <SearchBox />
+                        <Link href={'/cart'}>
+                            <Image id="cart-icon" src={'/Img/bag.svg'} width={30} height={30} alt='bag' />
+                        </Link>
+                    </div>
+                </div>
             </div>
-        </div>
+        </>
     )
 }
 
