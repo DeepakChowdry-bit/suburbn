@@ -17,6 +17,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`bg-zinc-50`}>
+        <Navbar />
+        {children}
+        <Footer />
         {/* <NextTopLoader
           color="linear-gradient(to right, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0))"
           height={5}
@@ -29,10 +32,8 @@ export default function RootLayout({ children }) {
           crawl={true}
         /> */}
         {/* <CartProvider> */}
-          {/* <TopCta /> */}
-          <Navbar />
-          {children}
-          <Footer />
+        {/* <TopCta /> */}
+
         {/* </CartProvider> */}
 
 
