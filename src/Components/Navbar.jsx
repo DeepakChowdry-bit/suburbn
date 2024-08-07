@@ -17,8 +17,8 @@ const Navbar = () => {
 
     return (
         <>
-            <div className='flex items-center justify-center h-20 shadow-sm sticky top-0 bg-zinc-50 z-50 px-3'>
-                <div className='flex items-center justify-between w-full'>
+            <div className='flex items-center justify-center h-full shadow-sm sticky top-0 bg-zinc-50 z-50 px-3'>
+                <div className='flex items-center justify-between w-full h-24'>
                     <MenuBar />
                     <div id="logo" className='flex justify-center'>
                         <Image src={'/Img/logo-black.svg'} width={100} height={100} alt='' />
