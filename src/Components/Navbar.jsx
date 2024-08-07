@@ -17,7 +17,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className='flex items-center justify-center h-20 shadow-sm sticky top-0 bg-zinc-50 z-50'>
+            <div className='flex items-center justify-center h-20 shadow-sm sticky top-0 bg-zinc-50 z-20 border-b border-black'>
                 <div className='flex items-center justify-between w-11/12'>
                     <MenuBar />
                     <div id="logo" className='flex justify-center'>
