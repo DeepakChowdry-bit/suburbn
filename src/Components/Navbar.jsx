@@ -1,5 +1,4 @@
 'use client'
-import useCart from "@/lib/useCart";
 import gsap from "gsap";
 import { Poppins } from "next/font/google";
 import Image from 'next/image';
@@ -21,8 +20,6 @@ const Navbar = () => {
     const searchBox = useRef(null);
     let isMenuOpen = false;
     let isSearchOpen = false;
-
-    // addToCart(gsap.to('car'))
 
     useEffect(() => {
         const handleMenuClick = () => {
@@ -121,7 +118,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className='flex items-center justify-center h-20 shadow-sm sticky top-0 bg-zinc-50 z-50'>
+            <div className='flex items-center justify-center h-[76px] shadow-sm sticky top-0 bg-zinc-50 z-50'>
                 <div className='flex items-center justify-between w-11/12'>
                     <div
                         id="buttons"
@@ -169,7 +166,7 @@ const Navbar = () => {
                             </div>
                         </div>
                         <Link href={'/cart'}>
-                            <Image id="cart-icon" src={'/Img/bag.svg'} width={30} height={30} alt='bag' />
+                            <Image id="#cart-icon" src={'/Img/bag.svg'} width={30} height={30} alt='bag' />
                         </Link>
                     </div>
                 </div>
