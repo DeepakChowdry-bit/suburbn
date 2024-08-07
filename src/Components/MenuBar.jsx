@@ -64,7 +64,7 @@ const MenuBar = () => {
         <>
             <div
                 id="menu"
-                className="flex items-center justify-start rounded-full w-1/2"
+                className="flex items-center justify-start rounded-full"
             >
                 <svg
                     ref={menuBtnRef}
