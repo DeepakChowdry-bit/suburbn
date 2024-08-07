@@ -16,7 +16,7 @@ const popp = Poppins({
 const Navbar = () => {
 
     return (
-        <div className="bg-zinc-600 flex items-center justify-center h-20 w-full border border-black">
+        <div className="bg-zinc-600 flex items-center justify-center h-28 w-full border border-black">
             <div className="flex items-center justify-between w-11/12">
                 <h3>SUBURBN.</h3>
                 <Image src={'/Img/bag.svg'} width={20} height={20} alt="" />
