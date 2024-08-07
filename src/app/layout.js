@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
           crawl={true}
         />
         <CartProvider>
-          <TopCta />
+          {/* <TopCta /> */}
           <Navbar />
           {children}
           <Footer />
