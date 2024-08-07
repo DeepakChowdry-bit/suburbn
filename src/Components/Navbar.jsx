@@ -20,6 +20,7 @@ const Navbar = () => {
             <div className="flex items-center justify-center h-20">
                 <div className="flex items-center justify-between">
                     <h3>SUBURBN.</h3>
+                    <Image src={'/Img/bag.svg'} width={20} height={20} alt="" />
                 </div>
             </div>
         </>
