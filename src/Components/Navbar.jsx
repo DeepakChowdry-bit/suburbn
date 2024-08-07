@@ -17,8 +17,8 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="flex items-center justify-center h-20">
-                <div className="flex items-center justify-between">
+            <div className="flex items-center justify-center h-20 w-full">
+                <div className="flex items-center justify-between w-11/12">
                     <h3>SUBURBN.</h3>
                     <Image src={'/Img/bag.svg'} width={20} height={20} alt="" />
                 </div>
