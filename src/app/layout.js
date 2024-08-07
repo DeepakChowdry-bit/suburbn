@@ -28,12 +28,12 @@ export default function RootLayout({ children }) {
           crawlSpeed={200}
           crawl={true}
         />
-        <CartProvider>
-          {/* <TopCta /> */}
+        {/* <CartProvider> */}
+          <TopCta />
           <Navbar />
           {children}
           <Footer />
-        </CartProvider>
+        {/* </CartProvider> */}
 
 
       </body>
